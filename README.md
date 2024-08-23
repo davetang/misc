@@ -2,6 +2,21 @@
 
 Miscellaneous notes and tips that don't fit in any of my other repos.
 
+## Stuff I forget
+
+Install OpenJDK 11 on Debian/Ubuntu.
+
+```console
+sudo apt update
+sudo apt install -y openjdk-11-jre
+```
+
+Change default shell to Z shell.
+
+```console
+chsh -s $(which zsh)
+```
+
 ## GNU screen
 
 * [Manual](https://www.gnu.org/software/screen/manual/screen.html)
