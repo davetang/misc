@@ -17,6 +17,24 @@ Change default shell to Z shell.
 chsh -s $(which zsh)
 ```
 
+## Windows
+
+Use `C:\Users\<UserName>\.wslconfig` to configure advanced settings options globally across all WSL 2 distributions.
+
+```
+# Settings apply across all Linux distros running on WSL 2
+[wsl2]
+
+# Limits VM memory to use no more than 4 GB, this can be set as whole numbers using GB or MB
+memory=24GB
+```
+
+Restart machine (because using PowerShell to restart Ubuntu didn't work) and then memory limit should be changed accordingly.
+
+```console
+free -h
+```
+
 ## GNU screen
 
 * [Manual](https://www.gnu.org/software/screen/manual/screen.html)
