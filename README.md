@@ -1,6 +1,44 @@
+## Table of Contents
+
+- [README](#readme)
+  - [Sysadmin](#sysadmin)
+  - [Stuff I forget](#stuff-i-forget)
+  - [Windows](#windows)
+  - [GNU screen](#gnu-screen)
+
 # README
 
 Miscellaneous notes and tips that don't fit in any of my other repos.
+
+## Sysadmin
+
+Force reboot on a degraded system.
+
+```console
+systemctl reboot
+```
+```
+Call to Reboot failed: Connection timed out
+Failed to start reboot.target: Connection timed out
+See system logs and 'systemctl status reboot.target' for details.
+It is possible to perform action directly, see discussion of --force --force in man:systemctl(1).
+```
+
+```console
+systemctl status reboot.target
+```
+```
+Failed to get properties: Connection timed out
+```
+
+Use double force!
+
+```console
+systemctl --force --force reboot
+```
+```
+Rebooting.
+```
 
 ## Stuff I forget
 
