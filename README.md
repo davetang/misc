@@ -5,6 +5,7 @@
   - [Stuff I forget](#stuff-i-forget)
   - [Windows](#windows)
   - [GNU screen](#gnu-screen)
+  - [Tips](#tips)
 
 # README
 
@@ -110,4 +111,42 @@ echo $TERM
 ```
 ```
 screen.xterm-256color
+```
+
+## Tips
+
+The `command-not-found` utility is useful for making suggestions when a command is not found. To use it install it and then run update to populate the database.
+
+```console
+sudo apt update
+sudo apt install -y command-not-found
+sudo apt update
+ls /var/lib/command-not-found
+```
+```
+commands.db  commands.db.metadata
+```
+
+If you are using the Z shell, [add the following](https://unix.stackexchange.com/a/65506) to `~/.zshrc`.
+
+```
+[ -f /etc/zsh_command_not_found ] && . /etc/zsh_command_not_found
+```
+
+Source `~/.zshrc` and voila!
+
+```console
+. ~/.zshrc
+pipp
+```
+```
+Command 'pipp' not found, did you mean:
+  command 'pcpp' from deb pcc
+  command 'pspp' from deb pspp
+  command 'pip' from deb python3-pip
+  command 'pipx' from deb pipx
+  command 'sipp' from deb sip-tester
+  command 'pgpp' from deb python3-pglast
+  command 'pip3' from deb python3-pip
+Try: sudo apt install <deb name>
 ```
