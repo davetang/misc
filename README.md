@@ -125,7 +125,7 @@ If you type `history` you will get the history of commands that was run. If you 
 !8318
 ```
 
-Another nice way, is to use <Control> + R. Press the two keys once and then start typing; use <Control> + R to cycle through the possible matches.
+Another nice way, is to use Ctrl + R. Press the two keys once and then start typing; use Ctrl + R to cycle through the possible matches.
 
 ### Command not found
 
