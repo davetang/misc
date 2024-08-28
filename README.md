@@ -6,6 +6,8 @@
   - [Windows](#windows)
   - [GNU screen](#gnu-screen)
   - [Tips](#tips)
+    - [Shell history](#shell-history)
+    - [Command not found](#command-not-found)
 
 # README
 
@@ -114,6 +116,18 @@ screen.xterm-256color
 ```
 
 ## Tips
+
+### Shell history
+
+If you type `history` you will get the history of commands that was run. If you want to re-run a particular history entry:
+
+```console
+!8318
+```
+
+Another nice way, is to use <Control> + R. Press the two keys once and then start typing; use <Control> + R to cycle through the possible matches.
+
+### Command not found
 
 The `command-not-found` utility is useful for making suggestions when a command is not found. To use it install it and then run update to populate the database.
 
