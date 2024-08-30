@@ -8,6 +8,7 @@
   - [Tips](#tips)
     - [Shell history](#shell-history)
     - [Command not found](#command-not-found)
+    - [SSH config](#ssh-config)
 
 # README
 
@@ -164,3 +165,18 @@ Command 'pipp' not found, did you mean:
   command 'pip3' from deb python3-pip
 Try: sudo apt install <deb name>
 ```
+
+### SSH config
+
+Use a config file if you SSH into a lot of different machines!
+
+```
+Host some_alias
+ HostName IP or URL
+ User username
+ IdentityFile private_key
+ ServerAliveInterval 240
+ Port port_number
+```
+
+Then just `ssh some_alias`!
