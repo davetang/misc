@@ -3,6 +3,7 @@
 - [README](#readme)
   - [Sysadmin](#sysadmin)
   - [Stuff I forget](#stuff-i-forget)
+  - [Mullvad Browser](#mullvad-browser)
   - [Windows](#windows)
   - [GNU screen](#gnu-screen)
   - [Tips](#tips)
@@ -58,6 +59,12 @@ Change default shell to Z shell.
 ```console
 chsh -s $(which zsh)
 ```
+
+## Mullvad Browser
+
+[Disable letterboxing](https://github.com/mullvad/mullvad-browser/issues/152#issuecomment-1944569635):
+
+Enter `about:config` into address bar and edit `privacy.resistFingerprinting.letterboxing`.
 
 ## Windows
 
