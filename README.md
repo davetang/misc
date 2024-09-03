@@ -6,6 +6,7 @@
   - [Mullvad Browser](#mullvad-browser)
   - [Windows](#windows)
   - [GNU screen](#gnu-screen)
+  - [Useful software](#useful-software)
   - [Tips](#tips)
     - [Shell history](#shell-history)
     - [Command not found](#command-not-found)
@@ -122,6 +123,10 @@ echo $TERM
 ```
 screen.xterm-256color
 ```
+
+## Useful software
+
+*  [Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) is a powerful utility for keyboard customisation on macOS Sierra (10.12) or later. Use it to remap keys and more!
 
 ## Tips
 
