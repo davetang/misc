@@ -5,6 +5,7 @@
   - [Stuff I forget](#stuff-i-forget)
   - [Mullvad Browser](#mullvad-browser)
   - [Windows](#windows)
+  - [Zsh](#zsh)
   - [GNU screen](#gnu-screen)
   - [Useful software](#useful-software)
   - [Tips](#tips)
@@ -83,6 +84,15 @@ Restart machine (because using PowerShell to restart Ubuntu didn't work) and the
 
 ```console
 free -h
+```
+
+## Zsh
+
+[Alt + left/right arrow key](https://stackoverflow.com/questions/12382499/looking-for-altleftarrowkey-solution-in-zsh) results in D and C characters. Put the following in `~/.zshrc`:
+
+```
+bindkey "^[[1;3C" forward-word
+bindkey "^[[1;3D" backward-word
 ```
 
 ## GNU screen
