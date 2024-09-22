@@ -49,6 +49,20 @@ Rebooting.
 
 ## Stuff I forget
 
+Mount CDROM; look for `/dev/sr0`.
+
+```console
+sudo blkid
+sudo mount /dev/sr0 /media/cdrom
+```
+
+Unmount and eject.
+
+```console
+sudo umount /media/cdrom/
+eject
+```
+
 Install OpenJDK 11 on Debian/Ubuntu.
 
 ```console
