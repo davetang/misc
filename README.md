@@ -109,6 +109,19 @@ bindkey "^[[1;3C" forward-word
 bindkey "^[[1;3D" backward-word
 ```
 
+While editing `~/.zshrc`, also add the following:
+
+```
+export VISUAL=vim
+export EDITOR="${VISUAL}"
+
+export LANGUAGE=en_AU.UTF-8
+export LC_TIME=C.UTF-8
+export LC_MONETARY=C.UTF-8
+export LC_PAPER=C.UTF-8
+export LC_MEASUREMENT=C.UTF-8
+```
+
 ## GNU screen
 
 * [Manual](https://www.gnu.org/software/screen/manual/screen.html)
