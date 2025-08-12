@@ -20,7 +20,7 @@ Miscellaneous notes and tips that don't fit in any of my other repos.
 
 ## macOS
 
-[When using Finder)(https://apple.stackexchange.com/questions/34871/how-to-view-root-directory-and-subdirectories-in-finder) press `Shift+Command+G` to bring up the Go To window that you can use to navigate to any location on your computer. (There does not seem to be a default location that you can click on to take you to the root directory, which is very annoying.)
+[When using Finder](https://apple.stackexchange.com/questions/34871/how-to-view-root-directory-and-subdirectories-in-finder) press `Shift+Command+G` to bring up the Go To window that you can use to navigate to any location on your computer. (There does not seem to be a default location that you can click on to take you to the root directory, which is very annoying.)
 
 ## Sysadmin
 
