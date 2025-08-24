@@ -166,6 +166,8 @@ echo $TERM
 screen.xterm-256color
 ```
 
+In copy mode (using `Ctrl-a [`), `/` performs a forward search, which will not find anything before the cursor. Use `?` to perform a backward search, which is probably what you want in the first place.
+
 ## Useful software
 
 *  [Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) is a powerful utility for keyboard customisation on macOS Sierra (10.12) or later. Use it to remap keys and more!
