@@ -1,6 +1,7 @@
 ## Table of Contents
 
 - [README](#readme)
+  - [iOS](#ios)
   - [macOS](#macos)
   - [Sysadmin](#sysadmin)
   - [Stuff I forget](#stuff-i-forget)
@@ -17,6 +18,10 @@
 # README
 
 Miscellaneous notes and tips that don't fit in any of my other repos.
+
+## iOS
+
+There is no escape key on the iPad keyboard. However you can press `cmd+.` (command + period) emulate ESC.
 
 ## macOS
 
