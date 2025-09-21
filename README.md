@@ -1,6 +1,7 @@
 ## Table of Contents
 
 - [README](#readme)
+  - [Whisper](#whisper)
   - [iOS](#ios)
   - [macOS](#macos)
   - [Sysadmin](#sysadmin)
@@ -18,6 +19,32 @@
 # README
 
 Miscellaneous notes and tips that don't fit in any of my other repos.
+
+## Whisper
+
+[Whisper](https://github.com/openai/whisper) is a robust speech recognition model built via large-scale weak supervision.
+
+System-wide installations.
+
+```console
+sudo apt update && sudo apt install ffmpeg
+```
+
+```console
+mamba create -n whisper python=3.11
+mamba activate whisper
+pip install --upgrade openai-whisper
+pip install --upgrade setuptools-rust
+```
+
+> The default setting (which selects the turbo model) works well for transcribing English. However, the turbo model is not trained for translation tasks. If you need to translate non-English speech into English, use one of the multilingual models (tiny, base, small, medium, large) instead of turbo.
+
+```console
+whisper nihongowakarimasen.flac --model medium --language Japanese --task translate
+```
+```
+[00:00.000 --> 00:03.000]  日本語わかりません。 I don't understand Japanese.
+```
 
 ## iOS
 
